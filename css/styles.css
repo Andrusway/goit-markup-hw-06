@@ -196,27 +196,39 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     background-color: #2e2f42;
     background-image:linear-gradient(rgba(46, 47, 66, 0.7),
     rgba(46, 47, 66, 0.7)),
-     url(../images/people-office1-min.jpg);
+     url(../images/Dark-bg-mob-min.jpg);
      margin: 0 auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
+    /* padding-top: 188px;
+    padding-bottom: 188px; */
+    padding-top: 72px;
+    padding-bottom: 72px;
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+}
+
+@media screen and (min-resolution: 2x) {
+    .hero{
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/Dark-bg-mob-2x-min.jpg); 
+    }
 }
 
 
 
 
 .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
+    /* font-size: 56px; */
+    font-size: 36px;
+    line-height: 1.11111;
+    /* line-height: 1.07; */
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    max-width: 496px;
+    /* max-width: 496px; */
+    max-width: 216px;
     margin: 0 auto;
 }
 
@@ -228,7 +240,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    margin-top: 48px;
+    /* margin-top: 48px; */
+    margin-top: 72px;
     min-width: 169px;
     height: 56px;
     border: none;
@@ -877,6 +890,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-checkbox-container{
     margin-bottom: 24px;
+    /* width: 256px;
+    height: 31px; */
 }
 
 .checkbox-text {
@@ -884,6 +899,8 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 line-height: 1.17;
 letter-spacing: 0.04em;
 color: #8e8f99;
+max-width: 256px;
+max-height: 31px;
 }
 
 .checkbox-element {
@@ -893,6 +910,7 @@ color: #8e8f99;
 border: 1px solid rgba(46, 47, 66, 0.4);
 margin-right: 8px;
 display: inline-flex;
+
 align-items: center;
 justify-content: center;
 fill: transparent;
@@ -900,9 +918,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 }
 
 .checkbox-element-text{
-    width: 231px;
-    height: 31px;
-    
+
 }
 
 .checkbox-link {
@@ -981,6 +997,43 @@ padding: 16px 0 ;
 
     /* #endregion==tablet=header */
   
+
+
+
+    /* #region==tablet=hero */
+
+
+    .hero{
+        padding-top: 112px;
+    padding-bottom: 112px;
+    background-color: #2e2f42;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/Dark-bg-tabl-min.jpg);
+    }
+
+    @media screen and (min-resolution: 2x) {
+    .hero{
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/Dark-bg-tabl-2x-min.jpg); 
+    }
+}
+
+    .hero-title{
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+    }
+
+    .hero-button{
+        margin-top: 36px;
+    }
+
+
+    /* #endregion==tablet=hero */
+
+
     /* #region==tablet=features */
 
     .features-list{
@@ -1063,6 +1116,17 @@ padding: 16px 0 ;
 
 
     /* #region==tablet=overlay */
+
+    .modal{
+        width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+    }
+
+    .model-item{
+       width: 360px; 
+    }
+
     /* #endregion==tablet=overlay */
 
     
@@ -1103,6 +1167,39 @@ padding: 16px 0 ;
 
     /* #endregion==comp=header */
 
+
+    /* #region==comp=hero */
+
+
+    .hero{
+       padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: #2e2f42;
+    background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/people-office1-min.jpg);
+    }
+
+    @media screen and (min-resolution: 2x) {
+    .hero{
+        background-image:linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+     url(../images/people-office-2x-min.jpg); 
+    }
+}
+
+    .hero-title{
+        font-size: 56px;
+        line-height: 1.07;
+        max-width: 496px;
+    }
+
+    .hero-button{
+        margin-top: 48px;
+    }
+
+
+    /* #endregion==comp=hero */
 
     /* #region==comp=features */
 
@@ -1236,6 +1333,15 @@ gap: 48px 24px;
 
 
     /* #region==comp=overlay */
+    .modal{
+        width: 408px;
+    min-height: 584px;
+    padding: 72px 24px 24px 24px;
+    }
+
+    .model-item{
+       width: 360px; 
+    }
     /* #endregion==comp=overlay */
 
 
