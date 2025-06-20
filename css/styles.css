@@ -1021,11 +1021,14 @@ letter-spacing: 0.04em;
 color: #8e8f99;
 max-width: 256px;
 max-height: 31px;
+display: flex;
+align-items: center;
+justify-items: center;
 }
 
 .checkbox-element {
-    width: 16px;
-    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
     border-radius: 2px;
 border: 1px solid rgba(46, 47, 66, 0.4);
 margin-right: 8px;
@@ -1247,6 +1250,10 @@ padding: 16px 0 ;
        width: 360px; 
     }
 
+    .checkbox-text{
+        max-width: 360px;
+    }
+
     /* #endregion==tablet=overlay */
 
     
@@ -1462,6 +1469,11 @@ gap: 48px 24px;
     .model-item{
        width: 360px; 
     }
+
+    .checkbox-text{
+        max-width: 360px;
+    }
+
     /* #endregion==comp=overlay */
 
 
