@@ -244,6 +244,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
  fill:#ffffff;   
 }
 
+.mob-nav{
+    margin-bottom: auto;
+}
+
 .mob-nav-list{
     display: flex;
     flex-direction: column;
@@ -262,6 +266,34 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .mob-nav-item:hover, .mob-nav-item:focus{
 color: #404bbf;
+}
+
+.mob-address-list{
+   display: flex;
+    flex-direction: column;
+    gap: 24px; 
+}
+
+.mob-address-item{
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #434455;
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mob-address{
+    margin-bottom: 48px;
+}
+
+.mob-address-item:hover, .mob-address-item:focus{
+    color: #4d5ae5;
+}
+
+.mobile-menu-svg-list{
+    display: flex;
+    gap: 40px;
 }
 
 
